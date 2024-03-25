@@ -1,0 +1,78 @@
+{
+    "machine_info": {
+        "node": "sambhavs-MacBook-Pro.local",
+        "processor": "arm",
+        "machine": "arm64",
+        "python_compiler": "Clang 14.0.0 (clang-1400.0.29.202)",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.9.6",
+        "python_version": "3.9.6",
+        "python_build": [
+            "default",
+            "Oct 18 2022 12:41:40"
+        ],
+        "release": "21.6.0",
+        "system": "Darwin",
+        "cpu": {
+            "python_version": "3.9.6.final.0 (64 bit)",
+            "cpuinfo_version": [
+                9,
+                0,
+                0
+            ],
+            "cpuinfo_version_string": "9.0.0",
+            "arch": "ARM_8",
+            "bits": 64,
+            "count": 10,
+            "arch_string_raw": "arm64",
+            "brand_raw": "Apple M1 Pro"
+        }
+    },
+    "commit_info": {
+        "id": "unversioned",
+        "time": null,
+        "author_time": null,
+        "dirty": false,
+        "project": "SQLAlchemy",
+        "branch": "(unknown)"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_add_employee_benchmark",
+            "fullname": "test_benchmark.py::test_add_employee_benchmark",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0042070410000001335,
+                "max": 0.005920541999999918,
+                "mean": 0.004643865294117657,
+                "stddev": 0.0003772896024916722,
+                "rounds": 17,
+                "median": 0.004596041999999967,
+                "iqr": 0.0002765837500002255,
+                "q1": 0.0044298539999999,
+                "q3": 0.004706437750000125,
+                "iqr_outliers": 1,
+                "stddev_outliers": 2,
+                "outliers": "2;1",
+                "ld15iqr": 0.0042070410000001335,
+                "hd15iqr": 0.005920541999999918,
+                "ops": 215.33785686391272,
+                "total": 0.07894571000000017,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2024-03-10T21:00:18.589616",
+    "version": "4.0.0"
+}
